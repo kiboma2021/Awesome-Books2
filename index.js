@@ -1,5 +1,6 @@
 /* eslint-disable max-classes-per-file */
 
+/*
 // Extracted function from lesson
 function storageAvailable(type) {
   let storage;
@@ -173,8 +174,9 @@ menuBtns.forEach((btn) => {
   btn.addEventListener('click', displaySection);
 });
 
+*/
+
 // Adding date
-const dateContainer = document.querySelector('#date');
 
 const date = new Date();
 
@@ -185,4 +187,5 @@ const hour = date.getHours();
 const minutes = date.getMinutes();
 const seconds = date.getSeconds();
 
-dateContainer.textContent = `${month} ${day} ${year}, ${hour}:${minutes}:${seconds}`;
+document.getElementById('date').innerHTML = `${month} ${day} ${year}, ${hour}:${minutes}:${seconds}`;
+
