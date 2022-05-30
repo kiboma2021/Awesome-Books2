@@ -144,12 +144,8 @@ form button {
 
 footer {
   position: relative;
-
-  /* left: 0;
-  right: 0; */
   bottom: 0;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
-  width: 90%;
   border: 2px solid black;
 }
