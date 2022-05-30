@@ -29,6 +29,9 @@ function storageAvailable(type) {
   }
 }
 
+*/
+
+
 const bookName = document.getElementById('name');
 const bookAuthor = document.getElementById('author');
 const addBtn = document.getElementById('add');
@@ -147,6 +150,17 @@ if (storageAvailable('localStorage')) {
   });
 }
 
+
+
+
+
+
+
+
+
+
+
+
 // Menu links
 const menuBtns = document.querySelectorAll('.menuBtn');
 // Sections
@@ -174,7 +188,7 @@ menuBtns.forEach((btn) => {
   btn.addEventListener('click', displaySection);
 });
 
-*/
+
 
 // Adding date
 
