@@ -134,12 +134,14 @@ form {
 
 form input {
   width: 100%;
+  height: 40px;
 }
 
 form button {
   position: relative;
   right: 0;
   text-align: right;
+  height: 30px;
 }
 
 footer {

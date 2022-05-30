@@ -29,7 +29,7 @@ function storageAvailable(type) {
   }
 }
 
-*/
+
 
 
 const bookName = document.getElementById('name');
@@ -150,7 +150,7 @@ if (storageAvailable('localStorage')) {
   });
 }
 
-
+*/
 
 
 
