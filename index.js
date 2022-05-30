@@ -152,11 +152,16 @@ if (storageAvailable('localStorage')) {
 
 */
 
+const bkTitle = document.getElementById("name");
+const bkAuthor = document.getElementById("author");
+const bkAdd = document.getElementById("add");
 
+bkAdd.onclick = function () {
+  const bookTitle = bkTitle.value;
+  const bookAuthor = bkAuthor.value;
 
-
-
-
+  console.log(bookTitle,bookAuthor);
+}
 
 
 
