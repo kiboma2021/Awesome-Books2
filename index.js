@@ -156,6 +156,7 @@ if (storageAvailable('localStorage')) {
 const bkTitle = document.getElementById("name");
 const bkAuthor = document.getElementById("author");
 const bkAdd = document.getElementById("add");
+const storedBooks= document.querySelector(".col-1");
 
 bkAdd.onclick = function () {
   const bookTitle = bkTitle.value;
@@ -171,6 +172,15 @@ bkAdd.onclick = function () {
     bkAuthor.value = "";
   }
 
+}
+
+//Display local Storage Items
+
+for (let i=0; i < localStorage.length; i++) {
+  const bkTit = localStorage.key(i);
+  const bkAut = localStorage.getItem (bkTit);
+
+  storedBooks.innerHTML += `${bkTit}  ${bkAut} <br>`
 }
 
 
