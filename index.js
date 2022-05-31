@@ -162,6 +162,8 @@ bkAdd.onclick = function () {
   const bookTitle = bkTitle.value;
   const bookAuthor = bkAuthor.value;
 
+  const addContainer = document.createElement('hr');
+
   //Check if we have input
 
   if (bookTitle && bookAuthor ) {
@@ -170,6 +172,8 @@ bkAdd.onclick = function () {
     //Clear input fields
     bkTitle.value = "";
     bkAuthor.value = "";
+
+    location.reload();
   }
 
 }
